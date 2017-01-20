@@ -18,7 +18,7 @@ npm -v
 **1. Clone this repository :**
 
 ```sh
-git clone --depth 1 https://github.com/nenee/preact-boilerplate.git weather-app
+git clone --depth 1 https://github.com/nenee/weatherapp-boilerplate.git weather-app
 cd weather-app
 ```
 
