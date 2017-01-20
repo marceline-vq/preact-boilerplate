@@ -17,7 +17,7 @@ npm -v
 **1. Clone this repository :**
 
 ```sh
-git clone --depth 1 https://github.com/nenee/weatherapp-boilerplate.git weather-app
+git clone --depth 1 https://github.com/nenee/preact-boilerplate.git weather-app
 cd weather-app
 ```
 
@@ -47,19 +47,14 @@ npm run dev
 
 > This is a full web server for your project. Any time you make changes within the `src` directory, it will rebuild and even refresh your browser.
 
-**5. Testing with `mocha`, `karma`, `chai`, `sinon` via `phantomjs`:**
 
-```sh
-npm test
-```
-
-**6. Generate a production build in `./build` :**
+**5. Generate a production build in `./build` :**
 
 ```sh
 npm run build
 ```
 
-**7. Start local production server with [serve](https://github.com/zeit/serve):**
+**6. Start local production server with [serve](https://github.com/zeit/serve):**
 
 ```sh
 npm start
@@ -77,4 +72,4 @@ npm start
 - There are many weather APIs out there; this boilerplate uses WeatherUnderground, which I highly recommend for any detailed info you may need; sign up is free and you can find out more about it here : 
 https://www.wunderground.com/weather/api/d/docs?MR=1 There's also a console, where you can check out particular responses : https://apigee.com/console/wunderground
 
-- Most importantly, have fun with it ! 👌🏻
+- Most importantly, have fun with it ! 👌
