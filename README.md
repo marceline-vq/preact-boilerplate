@@ -60,7 +60,7 @@ npm run build
 npm start
 ```
 
-> This is to simulate a production (CDN) server with gzip. It just serves up the contents of `./build`. Bear in mind, if you use this, the localhost port your server is running on will refresh, and you'll also need to restart it to see any changes you've made to the code.
+> This simply serves up the contents of `./build`. Bear in mind, if you use this, the localhost port your server is running on will refresh, and you'll also need to restart it to see any changes you've made to the code in `src`.
 
 
 ## Quick Boilerplate Overview
@@ -77,9 +77,9 @@ https://www.wunderground.com/weather/api/d/docs?MR=1 There's also a console, whe
 
 ## Extra Info
 
-- Handling URLS
+1. Handling URLS
 
-:information_source: This project contains a basic two-page app with [URL routing](http://git.io/preact-router).
+:information_source: You can use URL Routing as defined [here](http://git.io/preact-router).
 
 Pages are just regular components that get mounted when you navigate to a certain URL. Any URL parameters get passed to the component as `props`.
 
