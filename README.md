@@ -65,7 +65,7 @@ npm start
 
 ## Quick Boilerplate Overview
 
-- The initial run will display the iPhone version (iPhone 6/7 Plus screen size); however if you add "/ipad" to the url bar, you can view the iPad version (iPad Air screen size).
+- The initial run will display the iPhone version (iPhone 6/7 Plus screen size); however, if you modify the path on the url bar by adding "/ipad", you can view the tablet version (iPad Air screen size).
 
 - The CSS pre-processor in use is Less. You don't have to worry about the syntax and just write in normal CSS as there are helper modules to assist you (located in `style/helpers`).
 
@@ -73,3 +73,22 @@ npm start
 https://www.wunderground.com/weather/api/d/docs?MR=1 There's also a console, where you can check out particular responses : https://apigee.com/console/wunderground
 
 - Most importantly, have fun with it ! 👌
+
+
+## Extra Info
+
+- Handling URLS
+
+:information_source: This project contains a basic two-page app with [URL routing](http://git.io/preact-router).
+
+Pages are just regular components that get mounted when you navigate to a certain URL. Any URL parameters get passed to the component as `props`.
+
+Defining what component(s) to load for a given URL is easy and declarative. You can even mix-and-match URL parameters and normal props.
+
+```js
+<Router>
+  <A path="/" />
+  <B path="/b" id="42" />
+  <C path="/c/:id" />
+</Router>
+```

@@ -1,22 +1,19 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
+// import required Components from 'components/'
 import Iphone from './iphone';
 import Ipad from './ipad';
-//import Forecast from './forecast'
-//import Hourly from './hourly'
-//import style from './styleIpad'
-export default class App extends Component {
-//var WeatherApp = React.createClass({
-	/** Gets fired when the route changes.
-	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
-	 *	@param {string} event.url	The newly routed URL
-	 */
 
+export default class App extends Component {
+//var App = React.createClass({
+
+	// url handler
 	handleRoute = e => {
 		this.currentUrl = e.url;
 	};
 
+	// once the components are loaded, checks if the url bar has a path with "ipad" in it, if so sets state of tablet to be true
     componentDidMount() {
     	const urlBar = window.location.href;
     	if(urlBar.includes("ipad")) {
@@ -30,6 +27,9 @@ export default class App extends Component {
     	}
 	}
 
+	/*
+		A render method to display the required Component on screen (iPhone or iPad) : selected by checking component's isTablet state
+	*/
    	render(){
    		if(this.state.isTablet){
    			return (
