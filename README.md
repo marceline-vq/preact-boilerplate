@@ -2,8 +2,13 @@ Preact Boilerplate / Starter Kit for a Weather App
 
 # Set-Up Guide
 
-**0. Before doing any of this, if you're using your own laptop/desktop, make sure you've got the latest versions of node and npm installed; npm v: 4.0.5
-node v: 7.4.0.
+**0. Before doing any of this, if you're using your own laptop/desktop, make sure you've got the latest versions of node and npm installed (npm v: 4.0.5
+node v: 7.4.0) :**
+
+```sh
+node -v
+npm -v
+```
 
 ## Installation
 
@@ -63,12 +68,11 @@ npm start
 
 ## Quick Boilerplate Overview
 
-8. The initial run will display the iPhone version (iPhone 6/7 Plus screen size); however if you add "/ipad" to the url bar, you can view the iPad version (iPad Air screen size).
+- The initial run will display the iPhone version (iPhone 6/7 Plus screen size); however if you add "/ipad" to the url bar, you can view the iPad version (iPad Air screen size).
 
-9. The CSS pre-processor in use is Less. You don't have to worry about the syntax and just write in normal CSS as there are helper modules to assist you (located in `style/helpers`).
+- The CSS pre-processor in use is Less. You don't have to worry about the syntax and just write in normal CSS as there are helper modules to assist you (located in `style/helpers`).
 
-10. There are many weather APIs out there; this boilerplate uses WeatherUnderground, which I highly recommend for any detailed info you may need; sign up is free and you can find out more about it here : https://www.wunderground.com/weather/api/d/docs?MR=1
+- There are many weather APIs out there; this boilerplate uses WeatherUnderground, which I highly recommend for any detailed info you may need; sign up is free and you can find out more about it here : https://www.wunderground.com/weather/api/d/docs?MR=1
+There's also a console, where you can check out particular responses : https://apigee.com/console/wunderground
 
-- There's also a console, where you can check out particular responses : https://apigee.com/console/wunderground
-
-11. Most importantly, have fun with it ! 👌🏻
+- Most importantly, have fun with it ! 👌🏻
