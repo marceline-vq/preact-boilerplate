@@ -60,7 +60,7 @@ npm run build
 npm start
 ```
 
-> This is to simulate a production (CDN) server with gzip. It just serves up the contents of `./build`. Bear in mind, if you use this the localhost port your server is running on will refresh, and you'll also need to restart it to see any changes you made to the code in `src`.
+> This is to simulate a production (CDN) server with gzip. It just serves up the contents of `./build`. Bear in mind, if you use this, the localhost port your server is running on will refresh, and you'll also need to restart it to see any changes you've made to the code.
 
 
 ## Quick Boilerplate Overview
