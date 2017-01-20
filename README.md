@@ -61,14 +61,14 @@ npm start
 > This is to simulate a production (CDN) server with gzip. It just serves up the contents of `./build`. Bear in mind, if you use this the localhost port your server is running on will refresh, and you'll also need to restart it to see any changes you made to the code in `src`.
 
 
-## 8. Quick Boilerplate Overview
+## Quick Boilerplate Overview
 
-9. The initial run will display the iPhone version (iPhone 6/7 Plus screen size); however if you add "/ipad" to the url bar, you can view the iPad version (iPad Air screen size).
+8. The initial run will display the iPhone version (iPhone 6/7 Plus screen size); however if you add "/ipad" to the url bar, you can view the iPad version (iPad Air screen size).
 
-10. The CSS pre-processor in use is Less. You don't have to worry about the syntax and just write in normal CSS as there are helper modules to assist you (located in `style/helpers`).
+9. The CSS pre-processor in use is Less. You don't have to worry about the syntax and just write in normal CSS as there are helper modules to assist you (located in `style/helpers`).
 
-11. There are many weather APIs out there; this boilerplate uses WeatherUnderground, which I highly recommend for any detailed info you may need; sign up is free and you can find out more here : https://www.wunderground.com/weather/api/d/docs?MR=1
+10. There are many weather APIs out there; this boilerplate uses WeatherUnderground, which I highly recommend for any detailed info you may need; sign up is free and you can find out more about it here : https://www.wunderground.com/weather/api/d/docs?MR=1
 
-- There's also a console, where you can check particular responses : https://apigee.com/console/wunderground
+- There's also a console, where you can check out particular responses : https://apigee.com/console/wunderground
 
-12. Most importantly, have fun with it ! 👌🏻
+11. Most importantly, have fun with it ! 👌🏻
