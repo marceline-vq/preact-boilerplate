@@ -19,7 +19,7 @@ export default class App extends Component {
 
     componentDidMount() {
     	const urlBar = window.location.href;
-    	if(urlBar.includes("tablet")) {
+    	if(urlBar.includes("ipad")) {
     		this.setState({
     			"isTablet": true
     		});
@@ -41,7 +41,7 @@ export default class App extends Component {
    		else {
    			return (
 				<div id="app">
-					<Iphone monkey="boo"/>
+					<Iphone/>
 	   			</div>
 	   		);
    		}
